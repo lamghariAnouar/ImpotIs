@@ -10,6 +10,6 @@ import com.example.demo.bean.TauxDeclarationls;
 @Repository
 public interface TauxDeclarationlsDao extends JpaRepository<TauxDeclarationls, Long> {
 	List<TauxDeclarationls>findByResultatFiscalMnGreaterThanAndResultatFiscalMxLessThan(Double  ResultatFiscalMn,Double ResultatFiscalMx);
-	
+	//la partie pour tester
 	
 }
