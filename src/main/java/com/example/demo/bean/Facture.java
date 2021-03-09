@@ -111,20 +111,7 @@ public class Facture implements Serializable {
 			return false;
 		return true;
 	}
-	public Facture(Long id, int annee, int mois, double montantHt, double montantTtc, double montantTva,
-			String icesocieteSource, String icesocieteDestination, String credit, String debit) {
-		super();
-		this.id = id;
-		this.annee = annee;
-		this.mois = mois;
-		this.montantHt = montantHt;
-		this.montantTtc = montantTtc;
-		this.montantTva = montantTva;
-		this.icesocieteSource = icesocieteSource;
-		this.icesocieteDestination = icesocieteDestination;
-		this.Credit = credit;
-		this.Debit = debit;
-	}
+	
 	
 	
 }
