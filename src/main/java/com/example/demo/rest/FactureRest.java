@@ -37,8 +37,8 @@ public class FactureRest {
 		return factureService.findAll();
 	}
 
-	@PostMapping("/")
+	/*@PostMapping("/")
 	public void delete(Facture entity) {
 		factureService.delete(entity);
-	}
+	}*/
 }
