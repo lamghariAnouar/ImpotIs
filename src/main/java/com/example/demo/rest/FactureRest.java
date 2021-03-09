@@ -46,13 +46,10 @@ public class FactureRest {
 		return factureService.findAll();
 	}
 
-<<<<<<< HEAD
-	/*@PostMapping("/")
-	public void delete(Facture entity) {
-=======
+
 	@DeleteMapping("/")
 	public void delete(@PathVariable Facture entity) {
->>>>>>> branch 'master' of https://github.com/lamghariAnouar/ImpotIs.git
+
 		factureService.delete(entity);
-	}*/
+	}
 }
