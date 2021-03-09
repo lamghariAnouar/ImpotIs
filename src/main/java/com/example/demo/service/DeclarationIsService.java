@@ -43,6 +43,7 @@ private DeclarationIsDao declarationIsDao;
 	public int save(DeclarationIs declarationIs) {
 	 String ref=genererRef( declarationIs);
 	 declarationIs.setRef(ref);
+	 declarationIsDao.save(declarationIs);
 	 return 1;
 	}
 
